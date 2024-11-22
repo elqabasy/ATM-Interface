@@ -6,7 +6,14 @@ using namespace std;
 
 class CardReader {
     public:
+        // Constructor
+        CardReader();
+
+        // methods
         string readCard() const;
+
+        // Destructor
+        ~CardReader();
 };
 
 #endif // ATM_CARD_READER

@@ -29,11 +29,11 @@ class ATM : public ATMInfo {
         bool techAuthenticated;
         
         // Integrated Components
-        SoundUnit soundUnit;
         Vault vault;
         Logger logger;
         BankDB bankDB;  
         ATMScreen screen;
+        SoundUnit soundUnit;
         CardReader cardReader;
         CashDispenser cashDispenser;
         ReceiptPrinter receiptPrinter;
