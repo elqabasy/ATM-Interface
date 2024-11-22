@@ -6,19 +6,19 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Add the library
 add_library(ATMInterface
-    src/ATM.cpp
-    src/CardReader.cpp
-    src/CashDispenser.cpp
-    src/ReceiptPrinter.cpp
-    src/BankDB.cpp
-    src/Vault.cpp
-    src/ATMScreen.cpp
-    src/SoundUnit.cpp
-    src/Logger.cpp
-    src/TechnicalSupport.cpp
-    src/WithdrawTransaction.cpp
-    src/DepositTransaction.cpp
-    src/ATMConstants.cpp
+    source/ATM.cpp
+    source/CardReader.cpp
+    source/CashDispenser.cpp
+    source/ReceiptPrinter.cpp
+    source/BankDB.cpp
+    source/Vault.cpp
+    source/ATMScreen.cpp
+    source/SoundUnit.cpp
+    source/Logger.cpp
+    source/TechnicalSupport.cpp
+    source/WithdrawTransaction.cpp
+    source/DepositTransaction.cpp
+    source/ATMConstants.cpp
 )
 
 # Include directories
